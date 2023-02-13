@@ -1,4 +1,4 @@
-# #Using Yelp's dataset to help PA restaurants identify areas of improvement in Service or Food Quality. 
+# Using Yelp's dataset to help PA restaurants identify areas of improvement in Service or Food Quality. 
 
 ## How?
 Using Yelp's dataset we can find entities that are of nouns or adjectives through NLTK, from there we can use a word2vec model to create a keras layer with 76% accuracy. This accuracy reflects the words used are representative of the output variable "stars". This embedding layer is important for future training purposes. In the present it gives us words related to service or food quality that resturants in PA can focus on in order to recieve higher stars on their establishments and increase revenue. 
