@@ -26,11 +26,15 @@ Using Yelp's dataset we can find entities that are of nouns or adjectives throug
 
 Modeling
 Count Vec
+
 ![image](https://user-images.githubusercontent.com/98904682/218570824-c328e6d2-1238-43c7-9aa9-6cfd92efd265.png)
+- most common words
 
 N_gram word vec
-![image](https://user-images.githubusercontent.com/98904682/218571056-f3cc807b-9be3-443b-9726-dc17568fc222.png)
 
+![image](https://user-images.githubusercontent.com/98904682/218571056-f3cc807b-9be3-443b-9726-dc17568fc222.png)
+- most similar to service
+-
 Service Recommendations
 - Waiter and Waitress show similar cosine similarity scores for certain behaviors.
 - For instance refilling is commonly associated with the job, so a business recommendation may be to advise your staff to walk around with water when busy.
