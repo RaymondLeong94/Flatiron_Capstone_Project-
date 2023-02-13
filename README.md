@@ -13,9 +13,11 @@ Using Yelp's dataset we can find entities that are of nouns or adjectives throug
 
 - How can we translate these findings into data driven actions?
 
-- According to Dylan from 'https://qsrautomations.com/blog/restaurant-management/restaurant-customer-service/', his five points of improve service and hospitality 
+- According to Dylan from 'https://qsrautomations.com/blog/restaurant-management/restaurant-customer-service/', 
 
-- Clear staff expectations, personalized experiences, streamline wait times, response to concern, do table touches. These are all aspects and words which we have already hit on.
+- His five points of improve service and hospitality in the restauraunt industry: 
+
+- Clear staff expectations, personalized experiences, streamline wait times, response to concern, do table touches. These are all aspects and words which we have already seen.
 
 ## Data: All five files can be found at: https://www.yelp.com/dataset/
 - There are five files but only business.json, review.json, tips.json are relevant for this project .
