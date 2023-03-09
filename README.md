@@ -3,6 +3,7 @@
 We want to use different Natural language processing techniques in order to help improve businesses that are reemerging from covid, the biggest assistance they require is to identify if they should invest in their servers and if so what attributes are they looking for. In order to understand text data so that we can use similarity scores through our best neural network model to make proper business recomendations for restaurants that have 3.5 stars. This will help isolate the stakeholder and shift them either lower or higher on the scale of stars 1-5.
 
 Stakeholder
+
 Mark Cuban is a huge investor in Philledelphia restaurants and has an average rating of 3.5 stars across his restaurants and is inquiring about reopening his restaurants
 
 ![image](https://user-images.githubusercontent.com/98904682/218569185-f36debab-8a7c-487a-91c2-05f0f974fdc7.png)
