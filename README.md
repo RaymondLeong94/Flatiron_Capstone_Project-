@@ -58,7 +58,11 @@ From notebook 1 we had to decide which corpus of text we should use, either tips
 
 ![image](https://user-images.githubusercontent.com/98904682/223907152-e42b5a34-eb49-473b-b7f5-3fd088fa66ba.png)
 
+70,000 neutral reviews
+
 ![image](https://user-images.githubusercontent.com/98904682/223907171-2d283be7-794c-463e-b7f8-aae844d46591.png)
+
+Less than 25,000 neutral reviews
 
 **From notebook 1 we were able to find the most popular state with restaurant reviews:**
 
@@ -68,6 +72,9 @@ Furthermore, if we used a word 2 vec model we found that the following confusion
 
 ![image](https://user-images.githubusercontent.com/98904682/223909208-0b282532-8938-4466-9b1b-c810162528fd.png)
 
+True positives 27000, True Negatives 730, False Positives 8900, False Negatives 1100.
+
+What the model predicted in the mnb has 12,000 entries that were predicted improperly with the majority labeling reviews as falsely positive. This creates a class imbalance problem but helps our business problem by introducing more positive reviews. Although the false rates may create some biases in our data we are still looking for those positive reviews
 
 # Modeling
 
