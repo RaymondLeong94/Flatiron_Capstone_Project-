@@ -68,6 +68,7 @@ Furthermore, if we used a word 2 vec model we found that the following confusion
 
 ![image](https://user-images.githubusercontent.com/98904682/223909208-0b282532-8938-4466-9b1b-c810162528fd.png)
 
+
 # Modeling
 
 Using Named entity recognition we found the following nouns and adjectives:
@@ -80,7 +81,7 @@ Nouns is probably the most important contributor to a review because it tells us
 
 What we can say is that, in addition to service or food quality, we should also note the price of the restaurant 
 
-### We then looked at the similarity scores from our word2vec model in eda
+We then looked at the similarity scores from our word2vec model in eda
 
 ![image](https://user-images.githubusercontent.com/98904682/223908049-c3573266-3502-4cf3-aa01-73aa2336e482.png)
 
@@ -92,7 +93,7 @@ Some example implicit recommendations we can make are:
 
 - Ask per ask: Waiters should be vigilent about the customer's needs because you dont want the customer to constantly ask for the waiter.
 
-### With keras we used a vocabulary size of a 1000 to achieve an accuracy of 88% on the test and validation data. We remade our vectorized word df and found the cosine similarity scores after the word embedded weights were used.
+With keras we used a vocabulary size of a 1000 to achieve an accuracy of 88% on the test and validation data. We remade our vectorized word df and found the cosine similarity scores after the word embedded weights were used.
 
 ![image](https://user-images.githubusercontent.com/98904682/223908512-971c347c-3622-454a-86fd-4add3596d753.png)
 
@@ -108,11 +109,12 @@ Reasonable servers are not associated with server, which means that waiters shou
 
 It seems that fruits (desert), gravy and other condiments are associated with food. Thus Mr. Cuban should give these out at the lowest cost to save money. Additionally we see worker being associated with food- this may lead to a lot of further research into the matter
 
-Conclusions:
+# Conclusions:
 
 What we saw in the eda about the sevrer's behavior is important to helping Mr. Cuban grow his business and distinguish himself from 3.5 stars and aim to achieve better. He has a model that is 88% accurate in predicting nouns and adjectives from a review which can highlight important business actions.
 
-Recommended Business actions: He will want to hire friendly staff that are different and unique. They should be vigalent on the course of the meal and offer free condiments and desserts so that users can give more positive reviews. This means that they can then can improve Mr. Cuban's overall rating by creating more distinguishment from other 3.5 stars.
+## Recommended Business actions:
+He will want to hire friendly staff that are different and unique. They should be vigalent on the course of the meal and offer free condiments and desserts so that users can give more positive reviews. This means that they can then can improve Mr. Cuban's overall rating by creating more distinguishment from other 3.5 stars.
 
 He would also have to focus on the servers behaviors, smoking and slacking are negative correlated with server. As from the statements from previously in EDA, there are many different ways to improve service.
 
